@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Category;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 /*
@@ -20,6 +21,9 @@ use App\Http\Controllers\MainController;
 Route::get("/",[MainController::class,'index']);
 
 Route::get("/catalog",[MainController::class,'catalog']);
+
+Route::get("/categories",[Category::class,'index']);
+Route::get("/categories/{alias}",[Category::class,'category']);
 
 // Route::any('/', function () {
 //     //

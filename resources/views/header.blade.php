@@ -6,7 +6,7 @@
       <a class="nav-link active" aria-current="page" href="/">Main</a>
    </li>
    <li class="nav-item">
-      <a class="nav-link" href="/catalog">Catalog</a>
+      <a class="nav-link" href="/categories">Catalog</a>
    </li>
    <li class="nav-item">
       <a class="nav-link" href="#">Link</a>
