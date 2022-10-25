@@ -1,0 +1,26 @@
+
+
+
+#products {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+ #products div.product {
+   width: 300px;
+   border: solid 1px #aaa;
+   padding: 10px;
+   border-radius: 5px;
+   margin-bottom: 30px;
+ }
+
+ p.product_name{
+   font-weight: bold;
+   font-size: 18px;
+ }
+
+ p.product_desc{
+   font-size: 14px;
+   color:333;
+ }
